@@ -56,10 +56,10 @@ const StatCard = ({ big, title, desc, muted }: StatCardProps) => {
 
 export default StatCard;
 
-const splitStat = (value: string) => {
-    const symbolMatch = value.match(/^[^0-9]+|[^a-zA-Z0-9]+$/g);
-    const symbol = symbolMatch ? symbolMatch[0] : "";
-    const number = value.replace(symbol, "");
+// const splitStat = (value: string) => {
+//     const symbolMatch = value.match(/^[^0-9]+|[^a-zA-Z0-9]+$/g);
+//     const symbol = symbolMatch ? symbolMatch[0] : "";
+//     const number = value.replace(symbol, "");
 
-    return { symbol, number };
-};
+//     return { symbol, number };
+// };
